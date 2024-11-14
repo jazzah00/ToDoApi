@@ -15,8 +15,8 @@ Note: to simplify executing the .NET Web API and serving the Angular JS, clone t
 
 # Execution Instructions
 (Assuming you have cloned the repository to a root level folder, i.e. C:\Source)
-  1) Run Command Prompt (Clicking Windows keyboard key > Search for "cmd")
-  2) Change directory location to the base ToDoApi folder, i.e. type in the following
+1) Run Command Prompt (Clicking Windows keyboard key > Search for "cmd")
+2) Change directory location to the base ToDoApi folder, i.e. type in the following
 cd "C:\Source\ToDoApi\ToDoApi\ToDoApi"
 
   3a) Run the .NET Web API first, as the API needs to be running prior to the running the Angular JS, i.e. type in the following (whilst in the base "ToDoApi" folder) 
@@ -34,5 +34,5 @@ ng serve
   4c) After keying int he command above, you should see an output that the Angular development server is running, i.e.
 ** Angular Live Development Server is listening on http://localhost:4200
 
-  5) Open a web browser and navigate to http://localhost:4200 to see the simple app and to use its functionality.
+5) Open a web browser and navigate to http://localhost:4200 to see the simple app and to use its functionality.
 Note: When completing a Task, a double click on the checkbox is required, the first click updates the display and the second click updates the memory store via the .NET Web API
